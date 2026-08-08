@@ -1,0 +1,530 @@
+.HomePageContainer {
+    /* border: 1px solid white; */
+    width: 100%;
+    margin-top: -1%;
+}
+
+.PromotionPanels {
+    display: grid;
+    grid-template-columns: 62% 38%;
+    margin-bottom: 7%;
+}
+
+.PromoBlock1 {
+    border: none;
+    background-color: transparent;
+    height: 100%;
+    padding-top: 4%;
+}
+
+.Title1,
+.Title2,
+.Title3,
+.description {
+    margin-left: 7%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.Title1 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    margin-bottom: -5%;
+}
+
+.GreenTitle {
+    color: #016541;
+}
+
+.Title2 {
+    font-size: 70px;
+    margin-bottom: 6%;
+}
+
+.description {
+    margin-top: -0.05%;
+    line-height: 16px;
+    margin-bottom: 1%;
+    width: 60%;
+    text-align: justify;
+}
+
+.BRlabel,
+.AddToCart {
+    margin-left: 7%;
+    margin-bottom: 0.5%;
+}
+
+.BRlabel {
+    color: #696B4B;
+    font-size: 20PX;
+    display: flex;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.AddToCart {
+    padding: 1.5% 6% 1.5% 6%;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: white;
+    color: #016541;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    margin-bottom: 10%;
+    transition: color 0.7s ease-in-out, background-color 0.7s ease-in-out, transform 0.7s ease-in-out, border 0.7s ease-in-out;
+    outline: none;
+}
+
+.AddToCart:hover{
+    background-color: #016541;
+    color: white;
+    transform: scale(1.1);
+    border: 3px solid white;
+}
+
+
+.DisplayBar {
+    background-color: #016541;
+    width: 70%;
+    height: 140px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.DisplayBar img {
+    position: absolute;
+    z-index: 2;
+}
+
+.Drink1 {
+    margin-left: 25%;
+}
+
+.Drink2 {
+    margin-left: 50%;
+}
+
+.Drink3 {
+    margin-left: 75%;
+}
+
+.GreenCover {
+    position: absolute;
+    margin-left: 16%;
+    z-index: 1;
+    background-color: #016541;
+    border-radius: 50%;
+    padding: 100px;
+    margin-top: -5%;
+}
+
+.WhiteCover {
+    position: absolute;
+    margin-left: 17.5%;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    padding: 90px;
+    margin-top: -3%;
+}
+
+
+.PromoBlock2 {
+    border: none;
+    background-color: #016541;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    position: relative;
+}
+
+.PromoBlock2 img {
+    position: absolute;
+    z-index: 1;
+    left: -30%;
+    bottom: 7%;
+    transition: transform 0.7s ease-in-out, rotate 0.7s ease-in-out;
+}
+
+.PromoBlock2 img:hover {
+    transform: scale(1.07);
+    rotate: 3deg;
+}
+
+.CUPTitle1,
+.CUPTitle2 {
+    rotate: -90deg;
+    font-size: 75px;
+    margin-top: 55%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    ;
+    font-weight: 800;
+}
+
+.CUPTitle2 {
+    margin-top: 12%;
+    margin-left: 35%;
+    margin-bottom: 30%;
+    color: transparent;
+    -webkit-text-stroke: 0.5px white;
+}
+
+.minimenu {
+    padding: 0% 5% 0% 5%;
+    display: grid;
+}
+
+.navMiniMenu {
+    position: relative;
+}
+
+.navMiniMenu button {
+    padding: 2% 9% 2% 9%;
+    background-color: #016541;
+    border-bottom-right-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    outline: none;
+    border: none;
+    transition: transform 0.7s ease-in-out;
+}
+
+.navMiniMenu button:hover{
+    transform: scale(1.05);
+}
+
+.navMiniMenu button:nth-child(n + 2) {
+    margin-left: -10px;
+}
+
+.navMiniMenu button:nth-child(1) {
+    box-shadow: 10px 0px 4px #014b30;
+    position: relative;
+    z-index: 5;
+}
+
+.navMiniMenu button:nth-child(2) {
+    box-shadow: 10px 0px 4px #014b30;
+    position: relative;
+    z-index: 4;
+}
+
+.navMiniMenu button:nth-child(3) {
+    box-shadow: 10px 0px 4px #014b30;
+    position: relative;
+    z-index: 3;
+}
+
+.navMiniMenu button:nth-child(4) {
+    position: relative;
+    z-index: 2;
+}
+
+.displayMiniMenu{
+    margin-top: 9%;
+    display: grid;
+    grid-template-columns: 4% 20% 20% 20% 20% 4%;
+    column-gap: 30px;
+    align-items: center;
+    margin-bottom: 7%;
+}
+
+.block1, .block2, .block3, .block4{
+    height: 50vh;
+    background-color: #CDCDCD;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.7s ease-in-out, transform 0.7s ease-in-out;
+    position: relative;
+    z-index: 0;
+}
+
+.block1:hover, .block2:hover, .block3:hover, .block4:hover{
+    background-color: #016541;
+    transform: scale(1.05);
+}
+
+.block1:hover .MinMenuDrink, .block2:hover .MinMenuDrink,
+.block3:hover .MinMenuDrink, .block4:hover .MinMenuDrink{
+    transform: scale(1.1);
+}
+
+.backgroundPattern {
+    opacity: 0.2;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 13%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    z-index: -1;
+}
+
+.block h1{
+    position: relative;
+    z-index: 2;
+    top: 45%;
+    font-size: 25px;
+    color: #2F2F2F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.7s ease-in-out, top 0.7s ease-in-out, font-size 0.7s ease-in-out;
+}
+
+.block:hover h1{
+    color: white;
+    top: 46%;
+    font-size: 27px;
+}
+
+.OrderSpecs{
+    position: relative;
+    z-index: 2;
+    top: 42%;
+}
+
+
+.MinMenuDrink{
+    margin-top: -70px;
+    position: absolute;
+    z-index: 2;
+    transition: transform 0.7s ease-in-out;
+}
+
+
+.arrow1 img{
+    background-color: #016541;
+    padding: 15%;
+    border-radius: 50%;
+}
+
+.arrow2 img{
+    background-color: #016541;
+    padding: 15%;
+    border-radius: 50%;
+}
+
+.MiniMenuOrder{
+    width: 200px;
+    color: #2F2F2F;
+    font-size: 17px;
+    transition: color 0.7s ease-in-out;
+}
+
+.MiniMenuOrder select{
+    margin-left: 30%;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    color: #2F2F2F;
+    outline: none;
+    transition: color 0.6s ease-in-out;
+}
+
+.block:hover .MiniMenuOrder select,.block:hover .MiniMenuOrder{
+    color: white;
+    
+}
+
+.block button{
+    position: relative;
+    z-index: 2;
+    top: 46.5%;
+    background-color: #016541;
+    border: none;
+    padding: 5% 10% 5% 10%;
+    outline: none;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, transform 0.7s ease-in-out;
+}
+
+.block:hover button{
+    background-color: white;
+    color: #016541;
+    transform: scale(1.125);
+}
+
+.StoreInfoPanel{
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.StoreInfoPanel fieldset{
+    border-radius: 15px;
+    border: 2px solid white;
+    padding-left: 4%;
+    padding-right: 4%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    transition: transform 0.7s ease-in-out;
+}
+
+.StoreInfoPanel fieldset:hover{
+    transform: scale(1.02);
+}
+
+.StoreInfoPanel legend{
+    font-size: 40px;
+    /* margin-left: 4%; */
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.StoreInfoPanel fieldset div:nth-child(1) p{
+    text-align: justify;
+    margin-top: -1%;
+}
+
+.StoreInfoPanel fieldset div:nth-child(1) h2{
+    margin-bottom: 1%;
+}
+
+.StoreInfoPanel fieldset div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WallOfLogo{
+    background-color: #016541;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+.WallOfLogo h1{
+    padding: 1% 0 1% 0;
+    margin: 0;
+}
+
+.BranchLocation{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-between;
+}
+
+.BranchLocation div{
+    display: flex;
+    align-items: center;
+    transition: transform 0.7s ease-in-out;
+}
+
+.BranchLocation > div:hover{
+    transform: scale(1.05);
+}
+
+.BranchLocation img{
+    border-radius: 15px;
+    box-shadow: 4px 5px 10px #000000;
+}
+
+.BranchLocation div div{
+    background-color: #016541;
+    width: 50%;
+    height: 80%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 4px 5px 10px #000000;
+}
+
+
+.Feedback form fieldset{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    border-radius: 25px;
+    border: 2px solid white;
+    border: none;
+}
+
+.Feedback form fieldset h1{
+    font-size: 80px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.Feedback form fieldset label{
+    font-size: 20px;
+}
+
+.Feedback form fieldset input{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 80%;
+    padding: 1%;
+    margin-bottom: 2%;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.Feedback form fieldset textarea{
+    resize: none;
+    padding: 2%;
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    color: #016541;
+}
+
+.HomePageFooter{
+    box-shadow: -10px 0px 5px black;
+    background-color: #01714B;
+    width: 100%;
+    height: 50vh;
+}
+
+.HomePageFooter > div:nth-child(1){
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin-left: 5%;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.HomePageFooter > div > div fieldset{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.HomePageFooter > div > div input{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    width: 100%;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    
+}
+
+.HomePageFooter > div > div button{
+    margin: 0;
+    border-radius: 50px;
+    padding: 15px 40px 15px 40px;
+}
+
+.HomePageFooter > div > div input::placeholder {
+  color: white;
+}
