@@ -1,4 +1,4 @@
-<div style="display: flex; align-items: center;">
-  <img src="./public/Logo.png" width="20%" alt="Volera Cafe Logo" />
+<div style="display:flex; ">
+  <img src="./public/Logo.png" width="10%" alt="Volera Cafe Logo" style="border-radius: 10px"/>
   <h1>Volera Cafe</h1>
 </div>
